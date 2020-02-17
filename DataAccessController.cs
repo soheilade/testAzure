@@ -11,7 +11,7 @@ namespace CoursesWebApp.Models
     public class DataAccessController
     {
         // TODO: Add your connection string in the following statements
-        private string connectionString = "Server=tcp:uniserver1364.database.windows.net,1433;Initial Catalog=unidb;Persist Security Info=False;User ID=azuresql;Password=*****;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        private string connectionString = "Server=tcp:uniserver1364.database.windows.net,1433;Initial Catalog=unidb;Persist Security Info=False;User ID=azuresql;Password=*+****;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
         // Retrieve all details of courses and their modules    
         public IEnumerable<CoursesAndModules> GetAllCoursesAndModules()
