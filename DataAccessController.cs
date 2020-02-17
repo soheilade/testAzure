@@ -11,6 +11,13 @@ namespace CoursesWebApp.Models
     public class DataAccessController
     {
         //this is branch 1
+<<<<<<< HEAD
+        //addition in branch 2
+        //added branch 3
+        //added branch 3 extra commit
+=======
+        //added branchA
+>>>>>>> branchA
         // TODO: Add your connection string in the following statements
         private string connectionString = "Server=tcp:uniserver1364.database.windows.net,1433;Initial Catalog=unidb;Persist Security Info=False;User ID=azuresql;Password=*****;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
